@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 
-function PageInitial() {
+function LinktreePage() {
   const redes = [
     { name: 'Instagram', link: 'https://www.instagram.com' },
     { name: 'You tube', link: 'https://www.youtube.com' },
@@ -33,4 +33,4 @@ function PageInitial() {
   )
 }
 
-export default PageInitial;
+export default LinktreePage;

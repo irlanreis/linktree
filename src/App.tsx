@@ -1,9 +1,9 @@
-import PageInitial from "./PageInitial";
+import LinktreePage from "./Linktree-page";
 
 function App() {
   return (
     <>
-      <PageInitial/>
+      <LinktreePage/>
     </>
   )
 }
