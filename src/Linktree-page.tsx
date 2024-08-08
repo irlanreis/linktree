@@ -2,16 +2,16 @@ import Footer from "./Footer";
 
 function LinktreePage() {
   const redes = [
-    { name: 'Instagram', link: 'https://www.instagram.com' },
-    { name: 'You tube', link: 'https://www.youtube.com' },
-    { name: 'Whatssapp', link: 'https://www.whatssapp.com' },
-    { name: 'Telegram', link: 'https://www.telegram.com' },
-    { name: 'Facebook', link: 'https://www.facebook.com' },
-    { name: 'Site', link: 'https://www.site.com' },
+    { name: 'Instagram', link: 'https://www.instagram.com/devmacuxi/' },
+    { name: 'Whatssapp', link: 'https://api.whatsapp.com/send?phone=5595991706492&text=Ol%C3%A1%20devmacuxi,%20tudo%20bom!' },
+    { name: 'Linkedin', link: 'https://www.linkedin.com/in/irlanreis/' },
+    { name: 'Github', link: 'https://github.com/irlanreis' },
+    { name: 'Facebook', link: 'https://www.facebook.com/IrlaneJaque/' },
   ]
   return (
-    <div className="flex flex-col absolute justify-end w-full h-screen bg-bg-image">
-      <div className="w-full h-3/4 relative flex flex-col justify-between">
+    <div className="flex flex-col absolute justify-end w-full h-screen bg-bg-image object-center object-cover
+    ">
+      <div className="w-full h-3/4 relative flex flex-col justify-between mb-6">
         <div className="text-lg rounded-xl flex flex-col justify-center items-center">
           {
             redes.map((item, index) => (
