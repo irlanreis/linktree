@@ -18,7 +18,7 @@ function LinktreePage() {
               <a
                 key={index}
                 href={item.link}
-                className="w-96 text-zinc-600 block my-2 p-4 sm:w-96 text-center bg-zinc-300 rounded-xl hover:bg-opacity-0 hover:text-zinc-50 hover:text-2xl hover:border-2 hover:w-96 hover:font-bold focus:border-2 hover:p-3 font-extralight"
+                className="w-96 text-zinc-50 block my-2 p-4 sm:w-96 text-center bg-zinc-600 rounded-xl hover:bg-opacity-0 hover:text-zinc-50 hover:text-2xl hover:border-2 hover:w-96 hover:font-bold focus:border-2 hover:p-3 font-extralight"
                 target="_blank"
                 rel="noreferrer"
               >
