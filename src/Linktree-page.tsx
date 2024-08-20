@@ -10,9 +10,9 @@ function LinktreePage() {
     { name: 'Facebook', link: 'https://www.facebook.com/IrlaneJaque/' },
   ]
   return (
-    <div className="flex flex-col absolute justify-end w-full h-screen bg-bg-image object-center object-cover">
+    <div className="flex flex-col absolute justify-end w-full h-full bg-bg-image object-center object-cover">
       <IconePerfil/>
-      <div className="w-full h-3/4 relative flex flex-col justify-between mb-6">
+      <div className="w-full h-3/4 relative flex flex-col justify-between mb-1">
         <div className="text-lg rounded-xl flex flex-col justify-center items-center">
           {
             redes.map((item, index) => (
